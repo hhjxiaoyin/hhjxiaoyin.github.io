@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[个人笔记]]></title>
+    <url>%2F2017%2F07%2F29%2F%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。 初次使用hexo还不错长沙 代码实例` 用车申请 &lt;meta charset=&quot;utf-8&quot;&gt; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, user-scalable=no&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../lib/weui.min.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../css/jquery-weui.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;../assets/font-awesome/css/font-awesome.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;css/demos.css&quot;&gt; &lt;link rel=&quot;stylesheet&quot; href=&quot;css/apply.css&quot;&gt; `]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+</search>
