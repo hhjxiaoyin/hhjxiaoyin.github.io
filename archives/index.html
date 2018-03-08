@@ -1,220 +1,392 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  
-  <meta name="keywords" content="前端,html,javascript,jquery,照片">
-  <meta name="description" content="个人前端学习笔记及热场生活感悟">
-  
-  <title>smile-hhj</title>
-  
-    <!-- stylesheets list from config.yml -->
     
-      <link rel="stylesheet" href="/css/materialize.min.css">
+
     
-      <link rel="stylesheet" href="/css/main.min.css">
+
     
-  
-  <style type="text/css">
-      html{
-          font-family: sans-serif;
-          font-weight: 300;
-      }
-      @font-face {
-          font-family: 'Material Icons';
-          font-style: normal;
-          font-weight: 400;
-          src: url(/fonts/MaterialIcons-Regular.eot);
-          src: url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
-          url(/fonts/MaterialIcons-Regular.woff) format('woff'),
-          url(/fonts/MaterialIcons-Regular.ttf) format('truetype')
-      }
-  </style>
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    <title>Archives | smile-hhj</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="">
+    <meta property="og:type" content="website">
+<meta property="og:title" content="smile-hhj">
+<meta property="og:url" content="http://hhjxiaoyin.github.io/archives/index.html">
+<meta property="og:site_name" content="smile-hhj">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="smile-hhj">
+    
+        <link rel="alternate" type="application/atom+xml" title="smile-hhj" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
 <link rel="stylesheet" href="/css/prism-funky.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
 <body>
-<div id="menu-box"><a href="javascript:void(0)" id="menu" data-activates="slide-out" class="button-collapse menu" ><span class="nav-btn"></span></a></div>
-<div id="menu-outer">
-  <div id="menu-inner">
-      <ul id="slide-out" class="side-nav" >
-    <div class="nav-header"  style="background-image: url(/images/header-bg.jpg);background-color:#26A69A">
-    <div class="header-box"><img src="/images/avatar.jpg" ondragstart="return false;"></div>
-    <p>疯一样的女子</p>
-    <div class="nav-link">
-        
-        <a href="http://example.com" target="_blank"> <div class="link-box twitter"></div></a>
-        
-        
-        <a  href="https://github.com/hhjxiaoyin" target="_blank"><div class="link-box github"></div></a>
-        
-        
-        <a href="mailto:734023425@qq.com"><div class="link-box email"></div></a>
-        
-        
-        <a href="http://example.com" target="_blank"><div class="link-box weibo"></div></a>
-        
-        
-        <a href="http://example.com" target="_blank"> <div class="link-box zhihu"></div></a>
-        
+    <div id="loading" class="active"></div>
+
+    <aside id="menu"  >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/13.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">何慧娟</h5>
+          <a href="mailto:734023425@qq.com" title="734023425@qq.com" class="mail">734023425@qq.com</a>
+        </hgroup>
+      </div>
     </div>
-    <div class="nav-search">
-        <form id="search-form"> <!-- 搜索框相关 -->
-            <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索..." class="search form-control" autocomplete="off" autocorrect="off"/>
-            <div class="nav-search-img"><i class="material-icons">search</i></div>
-        </form>
-        <div id="local-search-result"></div> <!-- 搜索结果区 -->
-        <p class='no-result'>无搜索结果</p>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect active">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/hhjxiaoyin" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="http://www.weibo.com/ysweb" target="_blank" >
+                <i class="icon icon-lg icon-weibo"></i>
+                Weibo
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/custom"  >
+                <i class="icon icon-lg icon-link"></i>
+                测试
+              </a>
+            </li>
+        
+      </ul>
     </div>
-</div>
-    <!--Homepage-->
-
-<li class="nav-list">
-    <a href="/" target="_self">
-        <div class="nav-ico"><i class="material-icons">home</i> </div><p>主页</p>
-    </a>
-</li>
-
-<!--archives-->
-
-<li class="nav-list dropdown-btn">
-    <a  class=""  target="_self">
-        <div class="nav-ico"><i class="material-icons">assignment</i></div><p>归档</p><div class="dropdown-ico"><i class="material-icons">arrow_drop_down</i></div>
-    </a>
-</li>
-
-<ul class="dropdown-menu dropdown" >
-    <li class="nav-dropdown-list">
-        <a class="archive-link" href="/archives/2017/07/">July 2017<span class="archive-count">1</span></a>
-    </li>
-</ul>
-<!--categories-->
-
-<li class="nav-list dropdown-btn">
-    <a   class=""  target="_self">
-        <div class="nav-ico"><i class="material-icons">dashboard</i></div><p>分类</p><div class="dropdown-ico"><i class="material-icons">arrow_drop_down</i></div>
-    </a>
-</li>
-
-<ul class="dropdown-menu dropdown" >
-    <li class="nav-dropdown-list">
-        <a class="category-link" href="/categories/笔记/">笔记<span class="category-count">1</span></a>
-    </li>
-</ul>
-<!--tags-->
-
-<li class="nav-list">
-    <a href="/archives" target="_self">
-        <div class="nav-ico"><i class="material-icons">bookmark</i> </div><p>标签</p>
-    </a>
-</li>
-
-<!--photo-->
-
-<!--friends-->
-
-<li class="nav-list">
-    <a href="/friends" target="_self">
-        <div class="nav-ico"><i class="material-icons">face</i> </div><p>友链</p>
-    </a>
-</li>
-
-<!--about-->
-
-<li class="nav-list">
-    <a href="/about" target="_self">
-        <div class="nav-ico"><i class="material-icons">copyright</i> </div><p>关于</p>
-    </a>
-</li>
-
-
-</ul>
-
   </div>
-</div>
+</aside>
 
-<div id="content-outer">
-  <div id="content-inner">
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Archives</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="Search">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header archives-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Archives</h1>
+        <h5 class="subtitle">
+            
+        </h5>
+    </div>
+
     
 
 
-<div class="tags">
-  
-    <div id="archive">
-        
-          <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/">html</a></li></ul>
-        
+</header>
+
+<div class="container body-wrap fade">
+    
+
+    
+            
+            <h3 class="archive-separator">March, 2018</h3>
+            <div class="waterfall">
+    
+
+        <div class="waterfall-item">
+  <article class="article-card archive-article">
+    <div class="post-meta">
+      <time class="post-time" title="2018-03-08 09:28:27" datetime="2018-03-08T01:28:27.000Z"  itemprop="datePublished">2018-03-08</time>
+
+      
+
+
     </div>
+    
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2018/03/08/My-New-Post/">My New Post</a>
+    </h3>
   
 
-  </div>
-</div>
-<div id="bottom-outer">
-  <div id="bottom-inner">
-    <a  id="top-button" onfocus="this.blur();"><div class="up upinbody" style="background-color:#26A69A"><i class="material-icons material-up">vertical_align_top</i></div></a>
 
 
-<p >Copyright ©  2017  smile-hhj</p>
-<p >Powered by <a href="https://hexo.io/" target="_blank"> Hexo </a> & Theme - <a href="https://github.com/moumao/hexo-theme-Vateral" target="_blank">Vateral</a></p>
-<p style="font-size: 10px" id="footer-times" data-time="29/7/2017 00:00:00"></p>
-<script>
-    var beginTime=document.getElementById("footer-times").dataset.time
-    function show_date_time(){
-        var span=document.getElementById("footer-times")
-        window.setTimeout("show_date_time()", 1000);
-        BirthDay=new Date(beginTime);//初始日期
-        today=new Date();
-        timeold=(today.getTime()-BirthDay.getTime());
-        sectimeold=timeold/1000
-        secondsold=Math.floor(sectimeold);
-        msPerDay=24*60*60*1000
-        e_daysold=timeold/msPerDay
-        daysold=Math.floor(e_daysold);
-        e_hrsold=(e_daysold-daysold)*24;
-        hrsold=Math.floor(e_hrsold);
-        e_minsold=(e_hrsold-hrsold)*60;
-        minsold=Math.floor((e_hrsold-hrsold)*60);
-        seconds=Math.floor((e_minsold-minsold)*60);
-        span.innerHTML="本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
-    }
-    show_date_time();
-</script>
-
-  </div>
+    
+  </article>
 </div>
 
-<!--影集界面需要的资源-->
+    
+
+        <div class="waterfall-item">
+  <article class="article-card archive-article">
+    <div class="post-meta">
+      <time class="post-time" title="2018-03-08 09:25:53" datetime="2018-03-08T01:25:53.000Z"  itemprop="datePublished">2018-03-08</time>
+
+      
+
+
+    </div>
+    
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2018/03/08/My-Gallery/">相册</a>
+    </h3>
+  
 
 
 
-<!-- scripts list from theme config.yml -->
+    
+  </article>
+</div>
 
-<script src="/js/jquery-3.1.1.min.js"></script>
+    
+            </div> 
+            <h3 class="archive-separator">July, 2017</h3>
+            <div class="waterfall">
+    
 
-<script src="/js/materialize.min.js"></script>
+        <div class="waterfall-item">
+  <article class="article-card archive-article">
+    <div class="post-meta">
+      <time class="post-time" title="2017-07-29 10:41:30" datetime="2017-07-29T02:41:30.000Z"  itemprop="datePublished">2017-07-29</time>
 
-<script src="/js/main.min.js"></script>
+      
 
 
+    </div>
+    
+
+
+  
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="/2017/07/29/个人笔记/">个人笔记</a>
+    </h3>
+  
+
+
+
+    
+  </article>
+</div>
+
+    
+    </div>
+
+    
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>This blog is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>何慧娟 &copy; 2017 - 2018</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://hhjxiaoyin.github.io/archives/&title=smile-hhj&pic=http://hhjxiaoyin.github.io/img/13.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://hhjxiaoyin.github.io/archives/&title=smile-hhj&source=" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://hhjxiaoyin.github.io/archives/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=smile-hhj&url=http://hhjxiaoyin.github.io/archives/&via=http://hhjxiaoyin.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://hhjxiaoyin.github.io/archives/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABvUlEQVR42u3aQYrDMAwF0N7/0p3tQEn6JdmmgedVcNL6JQthSX694vH+N65mPuc/x+eTrx0DFxd3zE0WuF94x/9froWLi3uQe7XM1fXVksny97/9YsPFxX0INwlz99sjXFzcp3OTX1UpuLi4v8nNtyBrE6GNuRouLu6Amy+z73pLfRcXF7fFfRdHst3J75ZXx8XFPcLNA0rSLk0SpGogw8XFPc/tpR956jI/6nH5XXFxcbdxk+V7RyiS9sl9sPvyjXFxcbdxky1IwqqWQprpFi4u7hHupM5aba6s2k7h4uLu5s4bIfnGZd62wcXFPcONDkItOnIx/yi4uLgnufMkZx7syskPLi7uNu6kiFl91UnJFRcX9yS32rvM5/OjFc1ncHFxN3ML4aMVvOZHu8o9YVxc3KXcfBOz424zV8PFxd3G3X2EoldgXVZ/xcXFbSU8zbDS6n422zO4uLhHuNXgkiDyF0g+QfNlcHFxx9xq8Jq0TBakVbi4uAe5eVLUm+m1WHBxcZ/ITeZ75ZUFeRUuLu5Bbp4I9TKtQisFFxd3MzdPVOYN1FHRBBcX9wi32visJkW9Nu2C+i4uLm6H+wfJgyAen1+hWwAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
 <script>
-    NProgress.start();
-    NProgress.done();
-    lazy();
-    links();
-    window.onpopstate = menu();
-    //pjax操作
-    $(document).pjax('a:not(.nopjax)', '#content-inner', {fragment:'#content-inner', timeout:8000});
-    $(document).on('pjax:start', NProgress.start).on('pjax:end', NProgress.done)
-        .on('pjax:end', () => {
-            dowmdiv();
-            lazy();
-            toc();
-            links();
-            menu();
-        });
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+
+
 </script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
 
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+<script>
+(function() {
+    var OriginTitile = document.title, titleTime;
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = '死鬼去哪里了！';
+            clearTimeout(titleTime);
+        } else {
+            document.title = 'hhj!';
+            titleTime = setTimeout(function() {
+                document.title = OriginTitile;
+            },2000);
+        }
+    });
+})();
+</script>
+
+
 
 </body>
 </html>
