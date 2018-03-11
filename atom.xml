@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hhjxiaoyin.github.io/"/>
-  <updated>2018-03-11T10:05:25.196Z</updated>
+  <updated>2018-03-11T10:25:02.010Z</updated>
   <id>http://hhjxiaoyin.github.io/</id>
   
   <author>
@@ -21,18 +21,17 @@
     <link href="http://hhjxiaoyin.github.io/2018/01/11/vue%E5%88%9D%E5%A7%8B/"/>
     <id>http://hhjxiaoyin.github.io/2018/01/11/vue初始/</id>
     <published>2018-01-11T09:41:06.000Z</published>
-    <updated>2018-03-11T10:05:25.196Z</updated>
+    <updated>2018-03-11T10:25:02.010Z</updated>
     
-    <content type="html"><![CDATA[<p>##哪里可以了解VUE</p><ul><li><a href="http://cn.vuejs.org/" target="_blank" rel="noopener">vuejs中文官网</a></li><li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener">vuejs源码</a></li><li><a href="https://github.com/vuejs" target="_blank" rel="noopener">vue官方工具</a></li><li><a href="http://forum.vuejs.org/" target="_blank" rel="noopener">vue官方论坛</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li><a href="http://cn.vuejs.org/" target="_blank" rel="noopener">vuejs中文官网</a></li><li><a href="https://github.com/vuejs/vue" target="_blank" rel="noopener">vuejs源码</a></li><li><a href="https://github.com/vuejs" target="_blank" rel="noopener">vue官方工具</a></li><li><a href="http://forum.vuejs.org/" target="_blank" rel="noopener">vue官方论坛</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;##哪里可以了解VUE&lt;/p&gt;
-&lt;ul&gt;
+        &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://cn.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;vuejs中文官网&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com
+&lt;li&gt;&lt;a href=&quot;https://github.com/vuejs/vue&quot; target=
       
     
     </summary>
